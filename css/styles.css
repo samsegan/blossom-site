@@ -45,6 +45,7 @@ ul, ol { list-style: none; }
 [hidden] { display: none !important; }
 :focus-visible { outline: 2px solid var(--pink); outline-offset: 3px; }
 .sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .skip { position: fixed; left: 12px; top: -60px; z-index: 100; padding: 10px 14px; border-radius: 10px; background: var(--ink); color: #fff; }
 .skip:focus { top: 12px; }
 .wrap { width: min(100% - 2 * var(--pad), 1320px); margin-inline: auto; }

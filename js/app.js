@@ -133,9 +133,9 @@
     queued = false;
     const y = window.scrollY;
     root.classList.toggle('scrolled', y > 40);
-    tones();
     if (root.classList.contains('pin')) stageFrame(y);
     if (root.classList.contains('pinq')) quoteFrame(y);
+    tones();
   }
   function stageFrame(scrollY) {
     const y = clamp(scrollY - intro.offsetTop, 0, G.len);
