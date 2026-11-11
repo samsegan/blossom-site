@@ -1,0 +1,253 @@
+{
+ "_about": "Upcoming shows are from Blossom's Bandsintown listing and her Fall/Winter 2026 tour poster (Parklands, Forbidden Kingdom: festival lineup page). Past 2026 shows are from the Bandsintown listing, Coachella from her own post. The page hides a show the day after it happens.",
+ "upcoming": [
+  {
+   "date": "2026-11-13",
+   "event": "No Days Off",
+   "venue": "Soper Reserve",
+   "city": "Mount Maunganui",
+   "country": "New Zealand",
+   "tag": "Festival",
+   "url": "https://www.bandsintown.com/e/108858047",
+   "cta": "Tickets",
+   "photo": "pass-1"
+  },
+  {
+   "date": "2026-11-14",
+   "event": "Parklands Festival",
+   "venue": "Albert Park",
+   "city": "Auckland",
+   "country": "New Zealand",
+   "tag": "Festival",
+   "url": "https://www.instagram.com/blossom.dj/p/DerzjlRGC1w/",
+   "cta": "Info",
+   "photo": "pass-2",
+   "note": "Same day as San Francisco: two shows, two countries."
+  },
+  {
+   "date": "2026-11-14",
+   "event": "WORSHIP North American Tour",
+   "venue": "Bill Graham Civic Auditorium",
+   "city": "San Francisco, CA",
+   "country": "USA",
+   "tag": "With Sub Focus, Dimension, Culture Shock + 1991",
+   "url": "https://www.bandsintown.com/e/109008402",
+   "cta": "Tickets",
+   "photo": "pass-3"
+  },
+  {
+   "date": "2026-11-20",
+   "event": "Level Up",
+   "venue": "Mission Ballroom",
+   "city": "Denver, CO",
+   "country": "USA",
+   "tag": "Support",
+   "url": "https://www.bandsintown.com/e/108577460",
+   "cta": "Tickets",
+   "photo": "pass-4"
+  },
+  {
+   "date": "2026-12-04",
+   "end": "2026-12-06",
+   "event": "Cyclops Cove 4",
+   "venue": "Sunset Cove Amphitheater",
+   "city": "Boca Raton, FL",
+   "country": "USA",
+   "tag": "Festival",
+   "url": "https://www.bandsintown.com/e/108276347",
+   "cta": "Tickets",
+   "photo": "pass-5"
+  },
+  {
+   "date": "2026-12-12",
+   "event": "NEO4IC Takeover",
+   "venue": "Substation",
+   "city": "Seattle, WA",
+   "country": "USA",
+   "tag": "Co-headline with [IVY] + Oliverse",
+   "url": "https://www.bandsintown.com/e/109002435",
+   "cta": "Tickets",
+   "photo": "pass-6"
+  },
+  {
+   "date": "2027-04-23",
+   "end": "2027-04-25",
+   "event": "Forbidden Kingdom",
+   "venue": "Central Florida Fairgrounds",
+   "city": "Orlando, FL",
+   "country": "USA",
+   "tag": "Festival",
+   "url": "https://www.forbiddenkingdomfestival.com/lineup/",
+   "cta": "Lineup",
+   "photo": "pass-7"
+  }
+ ],
+ "past": [
+  {
+   "date": "2026-11-07",
+   "event": "ShockOne: End of Days Tour",
+   "where": "Brisbane, Australia"
+  },
+  {
+   "date": "2026-11-06",
+   "event": "ShockOne: End of Days Tour",
+   "where": "Sydney, Australia"
+  },
+  {
+   "date": "2026-11-02",
+   "event": "ShockOne: End of Days Tour",
+   "where": "Melbourne, Australia"
+  },
+  {
+   "date": "2026-10-30",
+   "event": "Scream",
+   "where": "Edmonton, Canada"
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Catwalk Club (Crucast tour)",
+   "where": "Los Angeles, CA"
+  },
+  {
+   "date": "2026-10-24",
+   "event": "Elsewhere (Crucast tour)",
+   "where": "Brooklyn, NY"
+  },
+  {
+   "date": "2026-10-23",
+   "event": "Noir (Crucast tour)",
+   "where": "Toronto, Canada"
+  },
+  {
+   "date": "2026-09-18",
+   "event": "Lost Lands",
+   "where": "Legend Valley, OH"
+  },
+  {
+   "date": "2026-09-12",
+   "event": "DNBNL Block Party LA",
+   "where": "Los Angeles, CA"
+  },
+  {
+   "date": "2026-09-05",
+   "event": "Bridge City Block Party",
+   "where": "Portland, OR"
+  },
+  {
+   "date": "2026-07-21",
+   "event": "Big Dub Festival",
+   "where": "Artemas, PA"
+  },
+  {
+   "date": "2026-06-26",
+   "event": "Coconino Campout",
+   "where": "Flagstaff, AZ"
+  },
+  {
+   "date": "2026-06-07",
+   "event": "DNBNL SF with Chase & Status",
+   "where": "San Francisco, CA"
+  },
+  {
+   "date": "2026-06-06",
+   "event": "JUMP DRIVE: [IVY] & Blossom",
+   "where": "Salt Lake City, UT"
+  },
+  {
+   "date": "2026-06-05",
+   "event": "Elsewhere",
+   "where": "Brooklyn, NY"
+  },
+  {
+   "date": "2026-05-31",
+   "event": "Hybrid Minds Present: Atmosphere",
+   "where": "London, UK"
+  },
+  {
+   "date": "2026-05-23",
+   "event": "Griztronics at The Gorge",
+   "where": "The Gorge, WA"
+  },
+  {
+   "date": "2026-05-15",
+   "event": "Jungle Bells: Sub Focus 360",
+   "where": "Atlanta, GA"
+  },
+  {
+   "date": "2026-04-17",
+   "event": "Coachella: Do LaB stage, b2b ÆON:MODE",
+   "where": "Indio, CA"
+  },
+  {
+   "date": "2026-04-03",
+   "event": "Gentle Ben's Brewing",
+   "where": "Tucson, AZ"
+  },
+  {
+   "date": "2026-03-20",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Boston, MA"
+  },
+  {
+   "date": "2026-03-14",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Austin, TX"
+  },
+  {
+   "date": "2026-03-13",
+   "event": "Academy LA",
+   "where": "Los Angeles, CA"
+  },
+  {
+   "date": "2026-03-06",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Philadelphia, PA"
+  },
+  {
+   "date": "2026-02-28",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Brooklyn, NY"
+  },
+  {
+   "date": "2026-02-27",
+   "event": "Sound-Bar",
+   "where": "Chicago, IL"
+  },
+  {
+   "date": "2026-02-20",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Washington, DC"
+  },
+  {
+   "date": "2026-02-14",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Irving, TX"
+  },
+  {
+   "date": "2026-02-07",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Vancouver, Canada"
+  },
+  {
+   "date": "2026-02-06",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Calgary, Canada"
+  },
+  {
+   "date": "2026-01-30",
+   "event": "Subtronics: Fibonacci Tour",
+   "where": "Laval, Canada"
+  },
+  {
+   "date": "2026-01-22",
+   "event": "Groove Cruise Miami",
+   "where": "Miami, FL"
+  }
+ ],
+ "stats": {
+  "shows": 189,
+  "cities": 96,
+  "countries": 7,
+  "since": 2021
+ }
+}
