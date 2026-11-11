@@ -213,7 +213,7 @@
   }
 
   // ---------- bookings ----------
-  const STAGES = ['Coachella', 'Lost Lands', 'EDC Las Vegas', 'Liquicity', 'Shambhala', 'HARD Summer', 'Bass Canyon', 'Beyond Wonderland', 'Rhythm & Vines', 'Lollapalooza', 'Big Dub', 'Das Energi', 'EDC Mexico', 'Groove Cruise', 'Griztronics'];
+  const STAGES = ['Coachella', 'Lost Lands', 'EDC Las Vegas', 'Liquicity', 'Shambhala', 'HARD Summer', 'Bass Canyon', 'Beyond Wonderland', 'Rhythm & Vines', 'Lollapalooza', 'Bonnaroo', 'Big Dub', 'Das Energi', 'EDC Mexico', 'Groove Cruise', 'Griztronics'];
   const LABELS = ['UKF', 'Bassrush Records', 'Helix Records', 'Monstercat', 'Deadbeats', 'Drum&BassArena', 'Thrive Music', 'Night Bass', 'IN / ROTATION', 'Dim Mak', 'Bite This!', 'Pink Planet'];
   const ticker = (node, words) => { const html = words.map((w) => `<span>${esc(w)}</span>`).join(''); node.innerHTML = html + html.replace(/<span>/g, '<span aria-hidden="true">'); };
   ticker($('#stages'), STAGES);
