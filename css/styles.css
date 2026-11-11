@@ -122,10 +122,10 @@ ul, ol { list-style: none; }
 .hero-left, .hero-right { position: absolute; bottom: var(--pad); width: clamp(190px, 16.5vw, 300px); z-index: 2; }
 .hero-left { left: var(--pad); }
 .hero-right { right: var(--pad); }
-.hero-slot { width: clamp(118px, 10.4vw, 158px); aspect-ratio: 3 / 4; margin-bottom: 22px; }
+.hero-slot { width: clamp(118px, 10.4vw, 158px); aspect-ratio: 3 / 4; margin-bottom: 30px; }
 .hero-cap { font-size: clamp(14px, 1.08vw, 19px); line-height: 1.38; }
 .cap-label { display: block; font: 500 11px/1.6 var(--mono); letter-spacing: .2em; text-transform: uppercase; color: var(--deep); }
-.cap-link { display: inline-flex; align-items: center; gap: .35em; margin-top: .5em; font: 500 12px/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--deep); text-decoration: none; }
+.cap-link { display: flex; width: fit-content; align-items: center; gap: .35em; margin-top: .6em; font: 500 12px/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--deep); text-decoration: none; }
 .cap-link svg { width: 15px; height: 15px; transition: transform .25s; }
 .cap-link:hover svg { transform: translateX(4px); }
 .hero-right .sig { margin-bottom: 20px; }
@@ -406,6 +406,17 @@ ul, ol { list-style: none; }
 .sc-tap p { margin-bottom: 8px; font: 500 11px/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--pink); }
 .sc-frame { display: block; width: 100%; height: 120px; border: 0; border-radius: 8px; }
 
+/* ---------- arriving: the landing screen settles in, once ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-portrait img { animation: arrive-portrait 1s cubic-bezier(.2, .8, .2, 1) backwards; }
+  .hero-left, .hero-right { animation: arrive .8s .35s cubic-bezier(.2, .8, .2, 1) backwards; }
+  .hero-shapes { animation: arrive-shapes 1.4s cubic-bezier(.2, .8, .2, 1) backwards; }
+  .pin .pass:first-child { animation: fade .7s .45s backwards; }
+}
+@keyframes arrive-portrait { from { opacity: 0; transform: translate3d(-50%, 5%, 0) scale(1.03); } }
+@keyframes arrive { from { opacity: 0; transform: translateY(18px); } }
+@keyframes arrive-shapes { from { opacity: 0; transform: scale(1.08); } }
+
 /* ---------- reveal on scroll ---------- */
 .rise { opacity: 0; transform: translateY(34px); transition: opacity .8s cubic-bezier(.2, .7, .2, 1), transform .8s cubic-bezier(.2, .7, .2, 1); transition-delay: var(--d, 0s); }
 .rise.in { opacity: 1; transform: none; }
@@ -416,7 +427,8 @@ ul, ol { list-style: none; }
   .contact-else { grid-column: 1 / -1; }
   .feature { grid-template-columns: minmax(0, 1fr) auto; }
 }
-@media (max-width: 820px) {
+/* phones, and tablets held upright */
+@media (max-width: 820px), (max-width: 1100px) and (max-aspect-ratio: 1/1) {
   :root { --slant: 11vw; }
   .mark, .burger { width: 40px; height: 40px; }
   .hero { min-height: 560px; }

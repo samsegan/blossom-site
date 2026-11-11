@@ -18,7 +18,8 @@
   const burger = $('#burger');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
-  const wide = matchMedia('(min-width: 821px) and (min-height: 540px)');
+  // the pinned stage needs a wide window; phones and upright tablets get the stacked page
+  const wide = matchMedia('(min-width: 821px) and (min-height: 540px) and (min-aspect-ratio: 1/1), (min-width: 1101px) and (min-height: 540px)');
   const phone = /iPhone|iPod|iPad|Android/i.test(navigator.userAgent);
 
   // ---------- dates ----------
